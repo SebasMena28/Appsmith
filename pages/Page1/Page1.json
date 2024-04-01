@@ -1,0 +1,200 @@
+{
+  "unpublishedPage": {
+    "name": "Page1",
+    "slug": "page1",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 700,
+          "containerStyle": "none",
+          "snapRows": 128,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 89,
+          "minHeight": 1300,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Page1_Find_Hoja_11",
+              "name": "Find_Hoja_11",
+              "confirmBeforeExecute": false,
+              "pluginType": "SAAS",
+              "jsonPathKeys": [
+                "Select1.filterText ? \"DIRECCIONES\" : \"\"",
+                "Select1.filterText"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Page1_Find_Hoja_13",
+              "name": "Find_Hoja_13",
+              "confirmBeforeExecute": false,
+              "pluginType": "SAAS",
+              "jsonPathKeys": [
+                "Select6.filterText ? \"CPC\" : \"\"",
+                "Select6.filterText"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Page1_Find_Procedimiento_sugerido1",
+              "name": "Find_Procedimiento_sugerido1",
+              "confirmBeforeExecute": false,
+              "pluginType": "SAAS",
+              "jsonPathKeys": [
+                "Select10.filterText ? \"Procedimiento sugerido\" : \"\"",
+                "Select10.filterText"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Page1_Find_SI_NO1",
+              "name": "Find_SI_NO1",
+              "confirmBeforeExecute": false,
+              "pluginType": "SAAS",
+              "jsonPathKeys": [
+                "Select7.filterText ? \"SI/NO\" : \"\"",
+                "Select7.filterText"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Page1_Find_SI_NO2",
+              "name": "Find_SI_NO2",
+              "confirmBeforeExecute": false,
+              "pluginType": "SAAS",
+              "jsonPathKeys": [
+                "Select8Copy2.filterText ? \"SI/NO\" : \"\"",
+                "Select8Copy2.filterText"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Page1_Find_SI_NO3",
+              "name": "Find_SI_NO3",
+              "confirmBeforeExecute": false,
+              "pluginType": "SAAS",
+              "jsonPathKeys": [
+                "Select7Copy.filterText",
+                "Select7Copy.filterText ? \"SI/NO\" : \"\""
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Page1_Find_SI_NO4",
+              "name": "Find_SI_NO4",
+              "confirmBeforeExecute": false,
+              "pluginType": "SAAS",
+              "jsonPathKeys": [
+                "Select7Copy1.filterText",
+                "Select7Copy1.filterText ? \"SI/NO\" : \"\""
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Page1_Find_SI_NO5",
+              "name": "Find_SI_NO5",
+              "confirmBeforeExecute": false,
+              "pluginType": "SAAS",
+              "jsonPathKeys": [
+                "Select7Copy2.filterText",
+                "Select7Copy2.filterText ? \"SI/NO\" : \"\""
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Page1_Find_Select_Grupo1",
+              "name": "Find_Select_Grupo1",
+              "confirmBeforeExecute": false,
+              "pluginType": "SAAS",
+              "jsonPathKeys": [
+                "Select5.filterText",
+                "Select5.filterText ? \"OPCIONES\" : \"\""
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Page1_Find_Tipo_de_compra1",
+              "name": "Find_Tipo_de_compra1",
+              "confirmBeforeExecute": false,
+              "pluginType": "SAAS",
+              "jsonPathKeys": [
+                "Select8.filterText",
+                "Select8.filterText ? \"TIPO DE COMPRA\" : \"\""
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Page1_Find_Tipo_de_presupuesto1",
+              "name": "Find_Tipo_de_presupuesto1",
+              "confirmBeforeExecute": false,
+              "pluginType": "SAAS",
+              "jsonPathKeys": [
+                "Select8CopyCopyCopy.filterText ? \"Tipo de presupuesto\" : \"\"",
+                "Select8CopyCopyCopy.filterText"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Page1_Find_Tipo_de_producto1",
+              "name": "Find_Tipo_de_producto1",
+              "confirmBeforeExecute": false,
+              "pluginType": "SAAS",
+              "jsonPathKeys": [
+                "Select8Copy1.filterText ? \"TIPO DE PRODUCTO\" : \"\"",
+                "Select8Copy1.filterText"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Page1_Find_Tipo_de_regimen1",
+              "name": "Find_Tipo_de_regimen1",
+              "confirmBeforeExecute": false,
+              "pluginType": "SAAS",
+              "jsonPathKeys": [
+                "Select8CopyCopy.filterText",
+                "Select8CopyCopy.filterText ? \"Tipo de régimen\" : \"\""
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Page1_Find_Unidad1",
+              "name": "Find_Unidad1",
+              "confirmBeforeExecute": false,
+              "pluginType": "SAAS",
+              "jsonPathKeys": [
+                "Select8Copy.filterText",
+                "Select8Copy.filterText ? \"UNIDAD\" : \"\""
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Page1",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "65f87557950ad85611646c28_65f8a369b115217540f73684"
+}
