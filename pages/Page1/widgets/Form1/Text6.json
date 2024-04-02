@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "",
+    "text": "Presione abajo para ver el proceso calculado",
     "key": "eo8dzlahtf",
     "isDeprecated": false,
     "rightColumn": 30,
