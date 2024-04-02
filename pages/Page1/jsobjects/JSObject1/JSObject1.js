@@ -246,6 +246,37 @@ export default {
 		}	
 	},
 	
+	controlarCampos(){
+		
+		Text8.setVisibility(false);
+		
+		let tipoCompra = Select8.selectedOptionValue; 
+		let tipoProducto = Select8Copy1.selectedOptionValue; 
+		let catalogoElectronico = Select8Copy2.selectedOptionValue;
+		let costoUnitario = Input2Copy.text; 
+		let cantidad = Input2.text;
+		let fondoBID = Select7.selectedOptionValue;
+		
+		let direccion = Select1.selectedOptionValue;
+		let subgrupo = Select5.selectedOptionValue;
+		let cpc = Select6.selectedOptionValue;
+		let detalle = Input1.text;
+		let unidad = Input2.text;
+		let tipoPresupuesto = Select8CopyCopyCopy.selectedOptionValue;
+		let regimen = Select8CopyCopy.selectedOptionValue;
+		
+		if (tipoCompra == '' || tipoProducto == '' || catalogoElectronico == '' || costoUnitario == '' || cantidad == '' || fondoBID == '' || 
+			 direccion == '' || subgrupo == '' || cpc == '' || detalle == '' || unidad == '' || tipoPresupuesto == '' || regimen == ''){
+			Text8.setVisibility(true);
+		}
+		else {
+			Ingresar_datos.run()
+			Text8.setVisibility(false);
+			showModal('Modal1')
+		}
+		
+	},
+	
 	async myFun2 () {
 		//	use async-await or promises
 		//	await storeValue('varName', 'hello world')
