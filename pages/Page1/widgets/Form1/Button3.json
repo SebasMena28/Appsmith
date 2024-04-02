@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 65,
     "widgetName": "Button3",
-    "onClick": "{{Api2.run().then(() => {\n  showModal('Modal1');\n});}}",
+    "onClick": "{{Ingresar_datos.run().then(() => {\n  showModal('Modal1');\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [],
     "displayName": "Button",
@@ -13,8 +13,8 @@
         "click",
         "submit"
     ],
-    "topRow": 63,
-    "bottomRow": 67,
+    "topRow": 64,
+    "bottomRow": 68,
     "parentRowSpace": 10,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
@@ -44,11 +44,11 @@
     "isLoading": false,
     "mobileTopRow": 61,
     "responsiveBehavior": "hug",
-    "originalTopRow": 63,
+    "originalTopRow": 64,
     "disabledWhenInvalid": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 3,
-    "originalBottomRow": 67,
+    "originalBottomRow": 68,
     "buttonVariant": "PRIMARY",
     "placement": "CENTER"
 }

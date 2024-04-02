@@ -83,39 +83,6 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Page1_Find_SI_NO3",
-              "name": "Find_SI_NO3",
-              "confirmBeforeExecute": false,
-              "pluginType": "SAAS",
-              "jsonPathKeys": [
-                "Select7Copy.filterText",
-                "Select7Copy.filterText ? \"SI/NO\" : \"\""
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Page1_Find_SI_NO4",
-              "name": "Find_SI_NO4",
-              "confirmBeforeExecute": false,
-              "pluginType": "SAAS",
-              "jsonPathKeys": [
-                "Select7Copy1.filterText",
-                "Select7Copy1.filterText ? \"SI/NO\" : \"\""
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Page1_Find_SI_NO5",
-              "name": "Find_SI_NO5",
-              "confirmBeforeExecute": false,
-              "pluginType": "SAAS",
-              "jsonPathKeys": [
-                "Select7Copy2.filterText",
-                "Select7Copy2.filterText ? \"SI/NO\" : \"\""
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "Page1_Find_Select_Grupo1",
               "name": "Find_Select_Grupo1",
               "confirmBeforeExecute": false,
