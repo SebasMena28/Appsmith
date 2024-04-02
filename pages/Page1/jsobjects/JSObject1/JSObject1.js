@@ -149,6 +149,103 @@ export default {
     return procesoSugerido;
 	},
 	
+	verProcesoSugerido(){
+		let tipoCompra = Select8.selectedOptionValue; 
+		let tipoProducto = Select8Copy1.selectedOptionValue; 
+		let catalogoElectronico = Select8Copy2.selectedOptionValue;
+		let costoUnitario = Input2Copy.text; 
+		let cantidad = Input2.text;
+		let fondoBID = Select7.selectedOptionValue;
+		var procesoSugerido;
+		
+		if (tipoCompra == '' || tipoProducto == '' || catalogoElectronico == '' || costoUnitario == '' || cantidad == '' || fondoBID == ''){
+			Text6.setText("POR FAVOR COMPLETE LOS CAMPOS");
+		}
+		else{
+			let monto = cantidad * costoUnitario;
+		
+			switch (fondoBID){
+				case "SI":
+					switch (tipoCompra){
+						case "BIEN":
+							if(tipoProducto == "NO NORMALIZADO"){
+								if (monto<66593.64) procesoSugerido = "MENOR CUANTIA"
+								else procesoSugerido = "COTIZACION"
+							}
+							else{
+								procesoSugerido = "SUBASTA INVERSA ELECTRONICA"
+							}
+						break;
+						case "SERVICIO":
+							if(tipoProducto == "NO NORMALIZADO"){
+								if (monto<66593.64) procesoSugerido = "MENOR CUANTIA"
+								else procesoSugerido = "COTIZACION"
+							}
+							else{
+								procesoSugerido = "SUBASTA INVERSA ELECTRONICA"
+							}
+						break;
+						case "OBRAS":
+							if (monto < 233077.74) procesoSugerido = "MENOR CUANTIA"
+							else if (monto > 998904.59) procesoSugerido = "LICITACION"
+							else procesoSugerido = "COTIZACION"
+						break;
+						case "CONSULTORIA":
+							if (monto <= 66593.64) procesoSugerido = "CONTRATACION DIRECTA"
+							else procesoSugerido = "LISTA CORTA"
+						break;
+					}
+				break
+				case "NO":
+					switch (tipoCompra){
+						case "CONSULTORIA":
+							if (monto <= 66593.64) procesoSugerido = "CONTRATACION DIRECTA"
+							if (monto >= 499452.30) procesoSugerido = "CONCURSO PUBLICO"
+							else procesoSugerido = "LISTA CORTA"
+						break;
+						case "OBRAS":
+							if (monto < 233077.74) procesoSugerido = "MENOR CUANTIA"
+							else if (monto > 998904.59) procesoSugerido = "LICITACION"
+							else procesoSugerido = "COTIZACION"
+						break;
+						case "BIEN":
+						if(tipoProducto == "NORMALIZADO"){
+							if(catalogoElectronico == "SI") procesoSugerido = "COMPRA POR CATALOGO ELECTRONICO"
+							else{
+								if (monto <= 6659.36) procesoSugerido = "INFIMA CUANTIA"
+								else procesoSugerido = "SUBASTA INVERSA ELECTRONICA"
+							}
+						}
+						else{
+							if(monto < 66593.64) procesoSugerido = "MENOR CUANTIA"
+							else if (monto > 499452.30) procesoSugerido = "LICITACION"
+							else procesoSugerido = "COTIZACION"
+						}
+
+						break;
+						case "SERVICIO":
+						if(tipoProducto == "NORMALIZADO"){
+							if(catalogoElectronico == "SI") procesoSugerido = "COMPRA POR CATALOGO ELECTRONICO"
+							else{
+								if (monto <= 6659.36) procesoSugerido = "INFIMA CUANTIA"
+								else procesoSugerido = "SUBASTA INVERSA ELECTRONICA"
+							}
+						}
+						else{
+							if(monto < 66593.64) procesoSugerido = "MENOR CUANTIA"
+							else if (monto > 499452.30) procesoSugerido = "LICITACION"
+							else procesoSugerido = "COTIZACION"
+						}
+
+						break
+					}
+				break
+			}
+
+			Text6.setText(procesoSugerido);
+		}	
+	},
+	
 	async myFun2 () {
 		//	use async-await or promises
 		//	await storeValue('varName', 'hello world')
