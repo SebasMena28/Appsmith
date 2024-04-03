@@ -14,7 +14,7 @@
         {"key": "borderRadius"},
         {"key": "sourceData"}
     ],
-    "placeholderText": "Sub grupo",
+    "placeholderText": "Partida presupuestaria",
     "isDisabled": false,
     "isRequired": true,
     "dynamicHeight": "FIXED",
