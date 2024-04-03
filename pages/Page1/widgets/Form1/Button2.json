@@ -4,7 +4,7 @@
     "mobileBottomRow": 37,
     "widgetName": "Button2",
     "onClick": "{{clearStore()}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonColor": "rgb(232, 63, 68)",
     "displayName": "Button",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [
@@ -19,16 +19,14 @@
     "animateLoading": true,
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 16,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
+    "dynamicBindingPathList": [{"key": "borderRadius"}],
     "text": "Resetear",
     "isDisabled": false,
     "key": "cygtbbo7eh",
     "isDeprecated": false,
     "rightColumn": 32,
     "isDefaultClickDisabled": true,
+    "iconName": "automatic-updates",
     "widgetId": "b0nq3j27gd",
     "minWidth": 120,
     "isVisible": true,
@@ -46,5 +44,6 @@
     "mobileLeftColumn": 30,
     "originalBottomRow": 75,
     "buttonVariant": "SECONDARY",
+    "iconAlign": "left",
     "placement": "CENTER"
 }

@@ -5,7 +5,7 @@
     "mobileBottomRow": 59,
     "widgetName": "Button8",
     "onClick": "{{JSObject1.verProcesoSugerido();}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonColor": "rgb(34, 50, 96)",
     "displayName": "Button",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [
@@ -22,16 +22,14 @@
     "parentColumnSpace": 13.9814453125,
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 8,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
+    "dynamicBindingPathList": [{"key": "borderRadius"}],
     "text": "Ver proceso sugerido calculado",
     "isDisabled": false,
     "key": "yroh08qbrd",
     "isDeprecated": false,
     "rightColumn": 24,
     "isDefaultClickDisabled": true,
+    "iconName": "endorsed",
     "widgetId": "gmoyitha9w",
     "minWidth": 120,
     "isVisible": true,
@@ -49,5 +47,6 @@
     "mobileLeftColumn": 8,
     "originalBottomRow": 59,
     "buttonVariant": "PRIMARY",
+    "iconAlign": "left",
     "placement": "CENTER"
 }

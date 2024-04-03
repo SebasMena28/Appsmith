@@ -19,7 +19,7 @@
     "parentColumnSpace": 17.9375,
     "dynamicTriggerPathList": [],
     "leftColumn": 1,
-    "dynamicBindingPathList": [{"key": "backgroundColor"}],
+    "dynamicBindingPathList": [],
     "children": [{
         "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
         "mobileBottomRow": 400,
@@ -64,7 +64,7 @@
     "positioning": "fixed",
     "flexVerticalAlignment": "stretch",
     "key": "juvjj2uv5r",
-    "backgroundColor": "{{appsmith.theme.colors.backgroundColor}}",
+    "backgroundColor": "#f4f4f5",
     "isDeprecated": false,
     "rightColumn": 64,
     "dynamicHeight": "FIXED",
