@@ -5,7 +5,6 @@ export default {
 		
 	},
 	
-	
 	obtenerNumeroPP(texto){
 		let partes = texto.split(' - ')
 		let numero = partes[0];

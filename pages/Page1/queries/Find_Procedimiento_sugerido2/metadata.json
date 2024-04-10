@@ -2,7 +2,7 @@
   "pluginType": "SAAS",
   "pluginId": "google-sheets-plugin",
   "unpublishedAction": {
-    "name": "Find_Hoja_13",
+    "name": "Find_Procedimiento_sugerido2",
     "datasource": {
       "name": "Untitled datasource 1",
       "pluginId": "google-sheets-plugin",
@@ -42,7 +42,7 @@
           "data": ""
         },
         "sheetName": {
-          "data": "Hoja 1"
+          "data": "Procedimiento sugerido"
         },
         "sheetUrl": {
           "data": "https://docs.google.com/spreadsheets/d/1CxRmmoCGCN910wNoOewQt9M2rSOATlNJRPKKNqnJqEc/edit"
@@ -59,15 +59,15 @@
             "children": [
               {
                 "condition": "CONTAINS",
-                "key": "{{Select6.filterText ? \"CPC\" : \"\"}}",
-                "value": "{{Select6.filterText}}"
+                "key": "{{Select10.filterText ? \"Procedimiento sugerido\" : \"\"}}",
+                "value": "{{Select10.filterText}}"
               }
             ]
           }
         }
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
         "key": "formData.where.data"
@@ -77,16 +77,16 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Select6.filterText",
-      "Select6.filterText ? \"CPC\" : \"\""
+      "Select10.filterText",
+      "Select10.filterText ? \"Procedimiento sugerido\" : \"\""
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-03-27T15:29:40Z"
+    "createdAt": "2024-04-10T16:31:28Z"
   },
-  "id": "Page1_Find_Hoja_13",
+  "id": "Page1_Find_Procedimiento_sugerido2",
   "deleted": false,
-  "gitSyncId": "65f87557950ad85611646c28_66043b64769cd363120d8bab"
+  "gitSyncId": "660b1b4105b3b31a8b0af6b3_6616bee0f691b60cc3899a06"
 }

@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 780,
+          "bottomRow": 1300,
           "containerStyle": "none",
           "snapRows": 128,
           "parentRowSpace": 1,
@@ -39,8 +39,8 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Page1_Find_Hoja_13",
-              "name": "Find_Hoja_13",
+              "id": "Page1_Find_Hoja_15",
+              "name": "Find_Hoja_15",
               "confirmBeforeExecute": false,
               "pluginType": "SAAS",
               "jsonPathKeys": [
@@ -50,8 +50,8 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Page1_Find_Procedimiento_sugerido1",
-              "name": "Find_Procedimiento_sugerido1",
+              "id": "Page1_Find_Procedimiento_sugerido2",
+              "name": "Find_Procedimiento_sugerido2",
               "confirmBeforeExecute": false,
               "pluginType": "SAAS",
               "jsonPathKeys": [
