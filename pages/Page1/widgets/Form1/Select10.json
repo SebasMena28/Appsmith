@@ -43,7 +43,7 @@
     "parentColumnSpace": 13.9814453125,
     "dynamicTriggerPathList": [{"key": "onFilterUpdate"}],
     "labelPosition": "Top",
-    "sourceData": "{{Find_Procedimiento_sugerido2.data}}",
+    "sourceData": "{{Find_PS1.data}}",
     "key": "zhc2y9k2aa",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
@@ -60,6 +60,6 @@
     "originalTopRow": 54,
     "mobileLeftColumn": 22,
     "maxDynamicHeight": 9000,
-    "onFilterUpdate": "{{\n            Find_Procedimiento_sugerido2.run();\n            \n          }}",
+    "onFilterUpdate": "{{\n            Find_PS1.run();\n            \n          }}",
     "minDynamicHeight": 4
 }
