@@ -5,10 +5,11 @@ export default {
 		
 	},
 	
-	obtenerNumeroPP(texto){
+	obtenerNumeroPP(texto, complemento){
 		let partes = texto.split(' - ')
 		let numero = partes[0];
-		return numero;
+		let resultado = numero+''+complemento
+		return resultado;
 	},
 	
 	obtenerTextoPP(texto){

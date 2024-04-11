@@ -23,6 +23,9 @@
       "jsArguments": [
         {
           "name": "texto"
+        },
+        {
+          "name": "complemento"
         }
       ]
     },

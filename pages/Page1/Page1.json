@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1300,
+          "bottomRow": 820,
           "containerStyle": "none",
           "snapRows": 128,
           "parentRowSpace": 1,
@@ -46,17 +46,6 @@
               "jsonPathKeys": [
                 "Select6.filterText ? \"CPC\" : \"\"",
                 "Select6.filterText"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Page1_Find_PS1",
-              "name": "Find_PS1",
-              "confirmBeforeExecute": false,
-              "pluginType": "SAAS",
-              "jsonPathKeys": [
-                "Select10.filterText ? \"Procedimiento sugerido\" : \"\"",
-                "Select10.filterText"
               ],
               "timeoutInMillisecond": 10000
             },

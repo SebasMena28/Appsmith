@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 66,
-    "bottomRow": 70,
+    "topRow": 68,
+    "bottomRow": 72,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 14.5419921875,
     "dynamicTriggerPathList": [],
-    "leftColumn": 19,
+    "leftColumn": 20,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -31,7 +31,7 @@
     "text": "Por favor complete todos los campos",
     "key": "eo8dzlahtf",
     "isDeprecated": false,
-    "rightColumn": 47,
+    "rightColumn": 48,
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "bi7fnktdiw",
@@ -49,11 +49,11 @@
     "isLoading": false,
     "mobileTopRow": 62,
     "responsiveBehavior": "fill",
-    "originalTopRow": 66,
+    "originalTopRow": 68,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 35,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 70,
+    "originalBottomRow": 72,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }
