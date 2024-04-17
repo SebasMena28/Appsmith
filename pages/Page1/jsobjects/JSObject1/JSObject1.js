@@ -270,8 +270,22 @@ export default {
 			Text8.setVisibility(true);
 		}
 		else {
-			Ingresar_datos.run()
-			clearStore()
+			//Ingresar_datos.run();
+			//ListaProcesos.run();
+			switch(direccion){
+				case "GESTIÓN DE TECNOLOGIAS DE LA INFORMACIÓN":
+					Tics.run();
+				break;
+				case "GESTIÓN ADMINISTRATIVA":
+						Administrativo.run();
+				break;
+					case "GESTIÓN DE OBRAS PÚBLICAS":
+						OOPP.run();
+				break;
+					
+			}
+			Ingresar_datos.run();
+			clearStore();
 			Text8.setVisibility(false);
 			showModal('Modal1');
 			
@@ -314,6 +328,11 @@ export default {
 		Select8CopyCopyCopy.setSelectedOption();
 		Select8CopyCopy.setSelectedOption();
 		Input3.setValue();
+	},
+	
+	unirDescripcionMonto(descripcion, cantidad, precio){
+		let resultado = descripcion + " (" + parseFloat(cantidad * precio) + ")" ;
+		return resultado;
 	},
 	
 	async myFun2 () {
