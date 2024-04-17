@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 54,
-    "bottomRow": 58,
+    "topRow": 61,
+    "bottomRow": 65,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 13.9814453125,
     "dynamicTriggerPathList": [],
-    "leftColumn": 1,
+    "leftColumn": 4,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -31,7 +31,7 @@
     "text": "Presione abajo para ver el proceso calculado",
     "key": "eo8dzlahtf",
     "isDeprecated": false,
-    "rightColumn": 30,
+    "rightColumn": 25,
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "vs7nuzy2tj",
@@ -49,11 +49,11 @@
     "isLoading": false,
     "mobileTopRow": 50,
     "responsiveBehavior": "fill",
-    "originalTopRow": 54,
+    "originalTopRow": 61,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 58,
+    "originalBottomRow": 65,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }

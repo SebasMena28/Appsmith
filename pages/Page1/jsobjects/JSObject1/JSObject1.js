@@ -290,7 +290,7 @@ export default {
 				break;
 					
 			}
-			Ingresar_datos.run();
+			PAC_General.run()
 			clearStore();
 			Text8.setVisibility(false);
 			showModal('Modal1');

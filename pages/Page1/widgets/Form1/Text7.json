@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 62,
-    "bottomRow": 67,
+    "topRow": 69,
+    "bottomRow": 74,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -20,7 +20,7 @@
     "fontFamily": "Inter",
     "parentColumnSpace": 13.9814453125,
     "dynamicTriggerPathList": [],
-    "leftColumn": 5,
+    "leftColumn": 1,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "borderRadius"}
@@ -30,7 +30,7 @@
     "text": "Si el procedimiento sugerido no coincide con su criterio elija una opción de la derecha",
     "key": "eo8dzlahtf",
     "isDeprecated": false,
-    "rightColumn": 27,
+    "rightColumn": 29,
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "mnwvyubids",
@@ -48,11 +48,11 @@
     "isLoading": false,
     "mobileTopRow": 65,
     "responsiveBehavior": "fill",
-    "originalTopRow": 62,
+    "originalTopRow": 69,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 24,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 67,
+    "originalBottomRow": 74,
     "fontSize": "0.875rem",
     "minDynamicHeight": 4
 }
