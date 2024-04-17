@@ -279,8 +279,14 @@ export default {
 				case "GESTIÓN ADMINISTRATIVA":
 						Administrativo.run();
 				break;
-					case "GESTIÓN DE OBRAS PÚBLICAS":
+				case "GESTIÓN DE OBRAS PÚBLICAS":
 						OOPP.run();
+				break;
+				case "GESTIÓN DE ORDENAMIENTO TERRITORIAL":
+						OOTT.run();
+				break;
+					case "GESTIÓN AMBIENTAL, SALUBRIDAD E HIGIENE":
+						Ambiental.run();
 				break;
 					
 			}
