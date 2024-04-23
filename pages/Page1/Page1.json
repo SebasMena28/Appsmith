@@ -6,6 +6,7 @@
       {
         "viewMode": false,
         "dsl": {
+          "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
           "widgetName": "MainContainer",
           "backgroundColor": "none",
           "rightColumn": 1224,
@@ -13,7 +14,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1300,
+          "bottomRow": 900,
           "containerStyle": "none",
           "snapRows": 128,
           "parentRowSpace": 1,
@@ -22,8 +23,17 @@
           "version": 89,
           "minHeight": 1300,
           "parentColumnSpace": 1,
-          "dynamicBindingPathList": [],
-          "leftColumn": 0
+          "dynamicTriggerPathList": [],
+          "dynamicBindingPathList": [
+            {
+              "key": "borderRadius"
+            },
+            {
+              "key": "boxShadow"
+            }
+          ],
+          "leftColumn": 0,
+          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
         },
         "layoutOnLoadActions": [
           [

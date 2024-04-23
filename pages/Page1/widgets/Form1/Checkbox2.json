@@ -6,7 +6,7 @@
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.7b004ee098ca948e952234e7baec6d11.svg",
     "searchTags": ["boolean"],
     "topRow": 34,
-    "bottomRow": 38,
+    "bottomRow": 39,
     "parentRowSpace": 10,
     "type": "CHECKBOX_WIDGET",
     "alignWidget": "LEFT",
@@ -44,6 +44,6 @@
     "mobileLeftColumn": 1,
     "defaultCheckedState": false,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 38,
+    "originalBottomRow": 39,
     "minDynamicHeight": 4
 }
