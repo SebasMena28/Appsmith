@@ -5,7 +5,7 @@
     "mobileBottomRow": 59,
     "widgetName": "Button8",
     "onClick": "{{JSObject1.verProcesoSugerido();}}",
-    "buttonColor": "rgb(34, 50, 96)",
+    "buttonColor": "#e83f44",
     "displayName": "Button",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [

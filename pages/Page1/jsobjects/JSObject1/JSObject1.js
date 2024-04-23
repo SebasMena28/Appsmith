@@ -294,24 +294,7 @@ export default {
 			clearStore();
 			Text8.setVisibility(false);
 			showModal('Modal1');
-			
-			/*Select8.setSelectedOption(); 
-			Select8Copy1.setSelectedOption(); 
-			Select8Copy2.setSelectedOption();
-			Input2Copy.setValue(); 
-			Input2.setValue();
-			Select7.setSelectedOption();
-			Checkbox1.isChecked;
-			Checkbox2.isCh;
-			Checkbox3.isChecked(false);
-			Select1.setSelectedOption();
-			Select5.setSelectedOption();
-			Select6.setSelectedOption();
-			Input1.setValue();
-			Input2.setValue();
-			Select8CopyCopyCopy.setSelectedOption();
-			Select8CopyCopy.setSelectedOption();
-			Input3.setValue();*/
+
 		}
 		
 	},

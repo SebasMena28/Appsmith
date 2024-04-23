@@ -5,7 +5,7 @@
     "mobileBottomRow": 65,
     "onClick": "{{JSObject1.controlarCampos();}}",
     "widgetName": "Button3",
-    "buttonColor": "rgb(34, 50, 96)",
+    "buttonColor": "#e83f44",
     "dynamicPropertyPathList": [],
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "displayName": "Button",
