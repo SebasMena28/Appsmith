@@ -297,10 +297,22 @@ export default {
 					DesarrolloSocial.run();
 					DetalleDesarrolloSocial.run();
 				break;
+				case "GESTIÓN DE COMUNICACIÓN":
+					Comunicacion.run();
+					DetalleComunicacion.run();
+				break;
+				case "GESTIÓN DE MOVILIDAD, TRÁNSITO Y TRANSPORTE":
+					Movilidad.run();
+					DetalleMovilidad.run();
+				break;
+				case "GESTIÓN CULTURAL, DEPORTES Y RECREACIÓN":
+					Cultura.run();
+					DetalleCultura.run();
+				break;
 					
 			}
 			PAC_General.run()
-			Ingresar_datos.run()
+			//Ingresar_datos.run()
 			clearStore();
 			Text8.setVisibility(false);
 			showModal('Modal1');
