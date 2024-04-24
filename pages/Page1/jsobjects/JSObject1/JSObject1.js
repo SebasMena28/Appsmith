@@ -285,8 +285,17 @@ export default {
 				case "GESTIÓN DE ORDENAMIENTO TERRITORIAL":
 						OOTT.run();
 				break;
-					case "GESTIÓN AMBIENTAL, SALUBRIDAD E HIGIENE":
+				case "GESTIÓN AMBIENTAL, SALUBRIDAD E HIGIENE":
 						Ambiental.run();
+					DetalleAmbiental.run()
+				break;
+				case "GESTIÓN DE PATRIMONIO CULTURAL":
+					Patrimonio.run();
+					DetallePatrimonio.run()
+				break;
+				case "GESTIÓN DEL DESARROLLO SOCIAL Y HUMANO":
+					DesarrolloSocial.run();
+					DetalleDesarrolloSocial.run();
 				break;
 					
 			}
@@ -298,6 +307,10 @@ export default {
 
 		}
 		
+	},
+	obtenerDETALLE(texto, cantidad, precio){
+		let monto = cantidad * precio;
+		return ""+texto+" (Monto: "+monto+")"
 	},
 	
 	Reiniciar(){

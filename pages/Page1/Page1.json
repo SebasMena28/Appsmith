@@ -14,7 +14,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 900,
+          "bottomRow": 920,
           "containerStyle": "none",
           "snapRows": 128,
           "parentRowSpace": 1,
@@ -38,8 +38,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_Find_Hoja_11",
-              "name": "Find_Hoja_11",
+              "id": "Page1_Find_DIRECCIONES1",
+              "name": "Find_DIRECCIONES1",
               "confirmBeforeExecute": false,
               "pluginType": "SAAS",
               "jsonPathKeys": [

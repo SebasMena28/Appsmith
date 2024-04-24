@@ -2,7 +2,7 @@
   "pluginType": "SAAS",
   "pluginId": "google-sheets-plugin",
   "unpublishedAction": {
-    "name": "Find_Hoja_11",
+    "name": "DetalleAmbiental",
     "datasource": {
       "name": "Untitled datasource 1",
       "pluginId": "google-sheets-plugin",
@@ -21,14 +21,14 @@
       "selfReferencingDataPaths": [],
       "formData": {
         "command": {
-          "data": "FETCH_MANY"
+          "data": "INSERT_ONE"
         },
         "entityType": {
           "data": "ROWS"
         },
         "pagination": {
           "data": {
-            "limit": "27",
+            "limit": "20",
             "offset": "0"
           }
         },
@@ -41,36 +41,24 @@
         "range": {
           "data": ""
         },
+        "rowObjects": {
+          "data": "{\n\t\"DETALLE\": {{JSObject1.obtenerDETALLE(Input1.text, Input2.text, Input2Copy.text)}}\n}"
+        },
         "sheetName": {
-          "data": "Hoja 1"
+          "data": "Kota"
         },
         "sheetUrl": {
-          "data": "https://docs.google.com/spreadsheets/d/1CxRmmoCGCN910wNoOewQt9M2rSOATlNJRPKKNqnJqEc/edit"
+          "data": "https://docs.google.com/spreadsheets/d/1eqkm5IEtEZh95wBud_xeP98HCHc_hZW0YPSHoYIYoa8/edit"
         },
         "smartSubstitution": {
           "data": true
-        },
-        "sortBy": {
-          "data": [
-            {
-              "column": "",
-              "order": "Ascending"
-            }
-          ]
         },
         "tableHeaderIndex": {
           "data": "1"
         },
         "where": {
           "data": {
-            "condition": "AND",
-            "children": [
-              {
-                "condition": "CONTAINS",
-                "key": "{{Select1.filterText ? \"DIRECCIONES\" : \"\"}}",
-                "value": "{{Select1.filterText}}"
-              }
-            ]
+            "condition": "AND"
           }
         }
       }
@@ -78,23 +66,22 @@
     "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
-        "key": "formData.where.data"
+        "key": "formData.rowObjects.data"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Select1.filterText",
-      "Select1.filterText ? \"DIRECCIONES\" : \"\""
+      "JSObject1.obtenerDETALLE(Input1.text, Input2.text, Input2Copy.text)"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-03-27T14:45:58Z"
+    "createdAt": "2024-04-24T15:10:25Z"
   },
-  "id": "Page1_Find_Hoja_11",
+  "id": "Page1_DetalleAmbiental",
   "deleted": false,
-  "gitSyncId": "65f87557950ad85611646c28_66043126e6fe4503dedccce8"
+  "gitSyncId": "660b1b4105b3b31a8b0af6b3_8bfc5300-e40e-4349-a88f-7a1d86ded9b6"
 }
