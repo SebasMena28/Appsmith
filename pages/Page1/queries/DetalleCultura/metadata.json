@@ -94,7 +94,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-24T22:57:10Z"
   },
-  "gitSyncId": "660b1b4105b3b31a8b0af6b3_86452bf3-3f39-423d-a746-64938f8caba3",
   "id": "Page1_DetalleCultura",
-  "deleted": false
+  "deleted": false,
+  "gitSyncId": "660b1b4105b3b31a8b0af6b3_86452bf3-3f39-423d-a746-64938f8caba3"
 }

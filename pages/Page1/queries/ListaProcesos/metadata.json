@@ -72,7 +72,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-15T15:51:11Z"
   },
-  "gitSyncId": "660b1b4105b3b31a8b0af6b3_661d4ceff43f8c3fbb8cf649",
   "id": "Page1_ListaProcesos",
-  "deleted": false
+  "deleted": false,
+  "gitSyncId": "660b1b4105b3b31a8b0af6b3_661d4ceff43f8c3fbb8cf649"
 }

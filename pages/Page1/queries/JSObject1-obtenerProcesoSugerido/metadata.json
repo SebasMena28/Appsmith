@@ -56,7 +56,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-02T16:52:47Z"
   },
-  "gitSyncId": "660b1b4105b3b31a8b0af6b3_660c37df66bfb81450fb53f4",
   "id": "Page1_JSObject1.obtenerProcesoSugerido",
-  "deleted": false
+  "deleted": false,
+  "gitSyncId": "660b1b4105b3b31a8b0af6b3_660c37df66bfb81450fb53f4"
 }

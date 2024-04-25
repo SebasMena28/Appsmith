@@ -47,7 +47,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-24T14:46:20Z"
   },
-  "gitSyncId": "660b1b4105b3b31a8b0af6b3_75a595b8-5f28-4a69-b9d3-7376b62c3eb3",
   "id": "Page1_JSObject1.obtenerDETALLE",
-  "deleted": false
+  "deleted": false,
+  "gitSyncId": "660b1b4105b3b31a8b0af6b3_75a595b8-5f28-4a69-b9d3-7376b62c3eb3"
 }

@@ -124,7 +124,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-24T21:13:43Z"
   },
-  "gitSyncId": "660b1b4105b3b31a8b0af6b3_ca943293-9db0-41ce-a453-d76e8fde5652",
   "id": "Page1_Comunicacion",
-  "deleted": false
+  "deleted": false,
+  "gitSyncId": "660b1b4105b3b31a8b0af6b3_ca943293-9db0-41ce-a453-d76e8fde5652"
 }

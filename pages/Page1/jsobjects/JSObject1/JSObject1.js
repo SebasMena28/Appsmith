@@ -311,6 +311,10 @@ export default {
 					Cultura.run();
 					DetalleCultura.run();
 				break;
+				case "REGISTRO DE LA PROPIEDAD":
+					Cultura.run();
+					DetalleCultura.run();
+				break;
 					
 			}
 			PAC_General.run()
