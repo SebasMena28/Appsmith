@@ -284,6 +284,7 @@ export default {
 				break;
 				case "GESTIÓN DE ORDENAMIENTO TERRITORIAL":
 						OOTT.run();
+					DetalleOOTT.run();
 				break;
 				case "GESTIÓN AMBIENTAL, SALUBRIDAD E HIGIENE":
 						Ambiental.run();
@@ -312,7 +313,7 @@ export default {
 					
 			}
 			PAC_General.run()
-			Ingresar_datos.run()
+			//Ingresar_datos.run()
 			clearStore();
 			Text8.setVisibility(false);
 			showModal('Modal1');
