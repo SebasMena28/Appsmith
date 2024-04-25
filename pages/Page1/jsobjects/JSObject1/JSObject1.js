@@ -314,7 +314,7 @@ export default {
 					
 			}
 			PAC_General.run()
-			//Ingresar_datos.run()
+			Ingresar_datos.run()
 			clearStore();
 			Text8.setVisibility(false);
 			showModal('Modal1');
