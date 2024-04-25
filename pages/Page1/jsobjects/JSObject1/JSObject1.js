@@ -312,8 +312,8 @@ export default {
 					DetalleCultura.run();
 				break;
 				case "REGISTRO DE LA PROPIEDAD":
-					Cultura.run();
-					DetalleCultura.run();
+					//Cultura.run();
+					//DetalleCultura.run();
 				break;
 					
 			}
