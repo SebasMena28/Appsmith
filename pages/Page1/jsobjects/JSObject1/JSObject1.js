@@ -281,6 +281,7 @@ export default {
 				break;
 				case "GESTIÓN DE OBRAS PÚBLICAS":
 						OOPP.run();
+						DetalleOOPP.run();
 				break;
 				case "GESTIÓN DE ORDENAMIENTO TERRITORIAL":
 						OOTT.run();
