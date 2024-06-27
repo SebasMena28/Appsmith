@@ -1,64 +1,80 @@
 {
-    "boxShadow": "none",
-    "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
-    "labelText": "Seleccione la partida presupuestaria:",
-    "topRow": 19,
-    "labelWidth": 5,
-    "type": "SELECT_WIDGET",
-    "serverSideFiltering": true,
-    "defaultOptionValue": "",
-    "animateLoading": true,
-    "leftColumn": 1,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "sourceData"}
-    ],
-    "placeholderText": "Partida presupuestaria",
-    "isDisabled": false,
-    "isRequired": true,
-    "dynamicHeight": "FIXED",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "version": 1,
-    "tags": [
-        "Suggested",
-        "Select"
-    ],
-    "isLoading": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 23,
-    "needsErrorInfo": false,
-    "mobileBottomRow": 51,
-    "widgetName": "Select5",
-    "isFilterable": true,
-    "dynamicPropertyPathList": [{"key": "sourceData"}],
-    "displayName": "Select",
-    "searchTags": ["dropdown"],
-    "bottomRow": 26,
-    "parentRowSpace": 10,
-    "hideCard": false,
-    "mobileRightColumn": 21,
-    "parentColumnSpace": 13.701171875,
-    "dynamicTriggerPathList": [{"key": "onFilterUpdate"}],
-    "labelPosition": "Top",
-    "sourceData": "{{Find_Select_Grupo1.data}}",
-    "key": "zhc2y9k2aa",
-    "labelTextSize": "0.875rem",
-    "isDeprecated": false,
-    "rightColumn": 30,
-    "widgetId": "awv46n5g0s",
-    "optionValue": "OPCIONES",
-    "minWidth": 450,
-    "parentId": "oh9e5enlh7",
-    "labelAlignment": "left",
-    "renderMode": "CANVAS",
-    "mobileTopRow": 44,
-    "optionLabel": "OPCIONES",
-    "responsiveBehavior": "fill",
-    "originalTopRow": 16,
-    "mobileLeftColumn": 1,
-    "maxDynamicHeight": 9000,
-    "onFilterUpdate": "{{\n            Find_Select_Grupo1.run();\n            \n          }}",
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 26,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onFilterUpdate"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "zhc2y9k2aa",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Seleccione la partida presupuestaria:",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 51,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 44,
+  "needsErrorInfo": false,
+  "onFilterUpdate": "{{\n            Find_Select_Grupo1.run();\n            \n          }}",
+  "optionLabel": "OPCIONES",
+  "optionValue": "OPCIONES",
+  "originalBottomRow": 23,
+  "originalTopRow": 16,
+  "parentColumnSpace": 13.701171875,
+  "parentId": "oh9e5enlh7",
+  "parentRowSpace": 10,
+  "placeholderText": "Partida presupuestaria",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 30,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": true,
+  "sourceData": "{{Find_Select_Grupo1.data}}",
+  "tags": [
+    "Suggested",
+    "Select"
+  ],
+  "topRow": 19,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "awv46n5g0s",
+  "widgetName": "Select5"
 }

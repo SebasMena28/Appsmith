@@ -1,52 +1,62 @@
 {
-    "resetFormOnClick": true,
-    "boxShadow": "none",
-    "mobileBottomRow": 37,
-    "widgetName": "Button2",
-    "onClick": "{{clearStore()}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "displayName": "Button",
-    "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
-    "searchTags": [
-        "click",
-        "submit"
-    ],
-    "topRow": 84,
-    "bottomRow": 88,
-    "type": "BUTTON_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 46,
-    "animateLoading": true,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 14,
-    "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "buttonColor"}
-    ],
-    "text": "Resetear",
-    "isDisabled": false,
-    "key": "cygtbbo7eh",
-    "isDeprecated": false,
-    "rightColumn": 30,
-    "isDefaultClickDisabled": true,
-    "iconName": "automatic-updates",
-    "widgetId": "b0nq3j27gd",
-    "minWidth": 120,
-    "isVisible": true,
-    "recaptchaType": "V3",
-    "version": 1,
-    "parentId": "oh9e5enlh7",
-    "tags": ["Buttons"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 33,
-    "responsiveBehavior": "hug",
-    "originalTopRow": 82,
-    "disabledWhenInvalid": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 30,
-    "originalBottomRow": 86,
-    "buttonVariant": "SECONDARY",
-    "iconAlign": "left",
-    "placement": "CENTER"
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 88,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "SECONDARY",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "buttonColor"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconName": "automatic-updates",
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "cygtbbo7eh",
+  "leftColumn": 14,
+  "minWidth": 120,
+  "mobileBottomRow": 37,
+  "mobileLeftColumn": 30,
+  "mobileRightColumn": 46,
+  "mobileTopRow": 33,
+  "onClick": "{{clearStore()}}",
+  "originalBottomRow": 86,
+  "originalTopRow": 82,
+  "parentId": "oh9e5enlh7",
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": true,
+  "responsiveBehavior": "hug",
+  "rightColumn": 30,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "text": "Resetear",
+  "topRow": 84,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "b0nq3j27gd",
+  "widgetName": "Button2"
 }

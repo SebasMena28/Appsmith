@@ -1,64 +1,80 @@
 {
-    "boxShadow": "none",
-    "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
-    "labelText": "Unidad:",
-    "topRow": 35,
-    "labelWidth": 5,
-    "type": "SELECT_WIDGET",
-    "serverSideFiltering": true,
-    "defaultOptionValue": "",
-    "animateLoading": true,
-    "leftColumn": 31,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "sourceData"}
-    ],
-    "placeholderText": "Unidad",
-    "isDisabled": false,
-    "isRequired": true,
-    "dynamicHeight": "FIXED",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "version": 1,
-    "tags": [
-        "Suggested",
-        "Select"
-    ],
-    "isLoading": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 39,
-    "needsErrorInfo": false,
-    "mobileBottomRow": 34,
-    "widgetName": "Select8Copy",
-    "isFilterable": true,
-    "dynamicPropertyPathList": [{"key": "sourceData"}],
-    "displayName": "Select",
-    "searchTags": ["dropdown"],
-    "bottomRow": 42,
-    "parentRowSpace": 10,
-    "hideCard": false,
-    "mobileRightColumn": 57,
-    "parentColumnSpace": 13.701171875,
-    "dynamicTriggerPathList": [{"key": "onFilterUpdate"}],
-    "labelPosition": "Top",
-    "sourceData": "{{Find_Unidad1.data}}",
-    "key": "zhc2y9k2aa",
-    "labelTextSize": "0.875rem",
-    "isDeprecated": false,
-    "rightColumn": 45,
-    "widgetId": "0t3qarh2qw",
-    "optionValue": "UNIDAD",
-    "minWidth": 450,
-    "parentId": "oh9e5enlh7",
-    "labelAlignment": "left",
-    "renderMode": "CANVAS",
-    "mobileTopRow": 27,
-    "optionLabel": "UNIDAD",
-    "responsiveBehavior": "fill",
-    "originalTopRow": 32,
-    "mobileLeftColumn": 37,
-    "maxDynamicHeight": 9000,
-    "onFilterUpdate": "{{\n            Find_Unidad1.run();\n            \n          }}",
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 42,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onFilterUpdate"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "zhc2y9k2aa",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Unidad:",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 31,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 34,
+  "mobileLeftColumn": 37,
+  "mobileRightColumn": 57,
+  "mobileTopRow": 27,
+  "needsErrorInfo": false,
+  "onFilterUpdate": "{{\n            Find_Unidad1.run();\n            \n          }}",
+  "optionLabel": "UNIDAD",
+  "optionValue": "UNIDAD",
+  "originalBottomRow": 39,
+  "originalTopRow": 32,
+  "parentColumnSpace": 13.701171875,
+  "parentId": "oh9e5enlh7",
+  "parentRowSpace": 10,
+  "placeholderText": "Unidad",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 45,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": true,
+  "sourceData": "{{Find_Unidad1.data}}",
+  "tags": [
+    "Suggested",
+    "Select"
+  ],
+  "topRow": 35,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "0t3qarh2qw",
+  "widgetName": "Select8Copy"
 }

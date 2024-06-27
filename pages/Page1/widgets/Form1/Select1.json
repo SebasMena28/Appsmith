@@ -1,63 +1,79 @@
 {
-    "boxShadow": "none",
-    "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
-    "labelText": "Seleccione la dirección:",
-    "topRow": 12,
-    "labelWidth": 5,
-    "type": "SELECT_WIDGET",
-    "serverSideFiltering": true,
-    "defaultOptionValue": "",
-    "animateLoading": true,
-    "leftColumn": 1,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "sourceData"}
-    ],
-    "placeholderText": "Dirección",
-    "isDisabled": false,
-    "isRequired": true,
-    "dynamicHeight": "FIXED",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "version": 1,
-    "tags": [
-        "Suggested",
-        "Select"
-    ],
-    "isLoading": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 16,
-    "mobileBottomRow": 23,
-    "widgetName": "Select1",
-    "isFilterable": true,
-    "dynamicPropertyPathList": [{"key": "sourceData"}],
-    "displayName": "Select",
-    "searchTags": ["dropdown"],
-    "bottomRow": 19,
-    "parentRowSpace": 10,
-    "hideCard": false,
-    "mobileRightColumn": 42,
-    "parentColumnSpace": 12.8603515625,
-    "dynamicTriggerPathList": [{"key": "onFilterUpdate"}],
-    "labelPosition": "Top",
-    "sourceData": "{{Find_DIRECCIONES1.data}}",
-    "key": "x12ottgb78",
-    "labelTextSize": "0.875rem",
-    "isDeprecated": false,
-    "rightColumn": 30,
-    "widgetId": "ltbb2ft5jm",
-    "optionValue": "DIRECCIONES",
-    "minWidth": 450,
-    "parentId": "oh9e5enlh7",
-    "labelAlignment": "left",
-    "renderMode": "CANVAS",
-    "mobileTopRow": 16,
-    "optionLabel": "DIRECCIONES",
-    "responsiveBehavior": "fill",
-    "originalTopRow": 9,
-    "mobileLeftColumn": 22,
-    "maxDynamicHeight": 9000,
-    "onFilterUpdate": "{{\n            Find_DIRECCIONES1.run();\n            \n          }}",
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 19,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onFilterUpdate"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "x12ottgb78",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Seleccione la dirección:",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 23,
+  "mobileLeftColumn": 22,
+  "mobileRightColumn": 42,
+  "mobileTopRow": 16,
+  "onFilterUpdate": "{{\n            Find_DIRECCIONES1.run();\n            \n          }}",
+  "optionLabel": "DIRECCIONES",
+  "optionValue": "DIRECCIONES",
+  "originalBottomRow": 16,
+  "originalTopRow": 9,
+  "parentColumnSpace": 12.8603515625,
+  "parentId": "oh9e5enlh7",
+  "parentRowSpace": 10,
+  "placeholderText": "Dirección",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 30,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": true,
+  "sourceData": "{{Find_DIRECCIONES1.data}}",
+  "tags": [
+    "Suggested",
+    "Select"
+  ],
+  "topRow": 12,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "ltbb2ft5jm",
+  "widgetName": "Select1"
 }

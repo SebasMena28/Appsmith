@@ -1,55 +1,65 @@
 {
-    "resetFormOnClick": false,
-    "needsErrorInfo": false,
-    "boxShadow": "none",
-    "mobileBottomRow": 59,
-    "widgetName": "Button8",
-    "onClick": "{{JSObject1.verProcesoSugerido();}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "displayName": "Button",
-    "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
-    "searchTags": [
-        "click",
-        "submit"
-    ],
-    "topRow": 69,
-    "bottomRow": 73,
-    "parentRowSpace": 10,
-    "type": "BUTTON_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 24,
-    "animateLoading": true,
-    "parentColumnSpace": 13.9814453125,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 7,
-    "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "buttonColor"}
-    ],
-    "text": "Ver proceso sugerido calculado",
-    "isDisabled": false,
-    "key": "yroh08qbrd",
-    "isDeprecated": false,
-    "rightColumn": 23,
-    "isDefaultClickDisabled": true,
-    "iconName": "endorsed",
-    "widgetId": "gmoyitha9w",
-    "minWidth": 120,
-    "isVisible": true,
-    "recaptchaType": "V3",
-    "version": 1,
-    "parentId": "oh9e5enlh7",
-    "tags": ["Buttons"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 55,
-    "responsiveBehavior": "hug",
-    "originalTopRow": 67,
-    "disabledWhenInvalid": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 8,
-    "originalBottomRow": 71,
-    "buttonVariant": "PRIMARY",
-    "iconAlign": "left",
-    "placement": "CENTER"
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 73,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "buttonColor"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconName": "endorsed",
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "yroh08qbrd",
+  "leftColumn": 7,
+  "minWidth": 120,
+  "mobileBottomRow": 59,
+  "mobileLeftColumn": 8,
+  "mobileRightColumn": 24,
+  "mobileTopRow": 55,
+  "needsErrorInfo": false,
+  "onClick": "{{JSObject1.verProcesoSugerido();}}",
+  "originalBottomRow": 71,
+  "originalTopRow": 67,
+  "parentColumnSpace": 13.9814453125,
+  "parentId": "oh9e5enlh7",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 23,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "text": "Ver proceso sugerido calculado",
+  "topRow": 69,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "gmoyitha9w",
+  "widgetName": "Button8"
 }
